@@ -11,3 +11,12 @@ TEST_CASE("Verify sum_numbers function")
 	REQUIRE(add_numbers(10, 10) == 20);
 }
 
+TEST_CASE("Test Multiply Numbers") {
+    // Test with parameter 10
+    int result1 = multiply_numbers(10);
+    REQUIRE(result1 == 50);
+
+    // Test with parameter 2
+    int result2 = multiply_numbers(2);
+    REQUIRE(result2 == 10);
+}
